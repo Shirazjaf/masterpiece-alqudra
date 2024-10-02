@@ -36,7 +36,7 @@ const MenuTwo = () => {
   return (
     <>
       <div
-        className={`header-menu style-one bg-white ${
+        className={`header-menu style-one bg-[#1D2027] ${
           fixedHeader ? "fixed" : ""
         }`}>
         <div className="container flex items-center justify-between h-20">
@@ -50,7 +50,7 @@ const MenuTwo = () => {
               className="w-[149px] max-sm:w-[132px]"
             />
           </Link>
-          <div className="menu-center-block h-full">
+          <div className="menu-center-block text-white h-full">
             <ul className="menu-nav flex items-center xl:gap-2 h-full">
               <li
                 className={`nav-item h-full flex items-center justify-center home ${

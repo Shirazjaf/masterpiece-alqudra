@@ -6,13 +6,13 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <div className="style-one">
-            <div className="footer-block bg-dark pt-[60px]">
+            <div className="footer-block bg-[#1D2027] pt-[60px]">
                 <div className="container">
                     <div className="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
                         <div className="lg:w-1/4">
                             <div className="footer-company-infor flex flex-col justify-between gap-5">
                                 <Image width={4000} height={3000} className="footer-logo w-[145px]" src="/images/LogoWhite.png" alt="Logo" />
-                                <div className="text caption1 text-white">We are a diversified company specialized in providing comprehensive financial solutions for individuals and businesses.</div>
+                                <div className="text caption1 text-white">We are a multifaceted company dedicated to delivering tailored fire safety and infrastructure solutions for both individuals and enterprises.</div>
                                 <div className="list-social flex items-center gap-2.5 style-one">
                                     <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/" target="_blank">
                                         <i className="icon-facebook text-sm"></i>

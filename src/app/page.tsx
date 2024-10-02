@@ -24,9 +24,7 @@ export default function HomeTwo() {
         </header>
         <main className="content">
           <SliderTwo />
-          <PartnerOne classname="bg-dark-blue" />
-          <AboutTwo />
-          <CounterTwo classname="lg:py-10 py-7 border-t border-line" />
+          {/* <PartnerOne classname="bg-[#C4030A]" /> */}
           <ProjectTwo />
           <ServiceTwo data={serviceData} />
           <TestimonialTwo />
@@ -34,7 +32,6 @@ export default function HomeTwo() {
             classname="style-two"
             bgImg="/images/banner/form-benefit-two.png"
           />
-          <BlogOne data={blogData} />
           <div className="pb-[100px]"></div>
           <CtaOne />
         </main>
