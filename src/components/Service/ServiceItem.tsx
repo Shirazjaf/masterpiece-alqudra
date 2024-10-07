@@ -35,8 +35,8 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 <div className="service-item py-7 px-6 bg-white rounded-lg border border-line box-shadow-sm hover-box-shadow">
                     <Link
                         className="service-item-main flex items-center gap-8 h-full"
-                        href={"/service/service-detail/[slug]"}
-                        as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
+                        href={"#"}
+                        as={`#`}
                     >
                         <div className="icon">
                             <i className={`${data.icon} text-blue md:text-5xl text-4xl`}></i>

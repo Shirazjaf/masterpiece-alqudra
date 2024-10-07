@@ -7,14 +7,16 @@ import Partner from "@/components/Section/Partner/PartnerAbout"
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
 import Image from "next/image"
+import TopNavTwo from "@/components/Header/TopNav/TopNavTwo"
+import MenuTwo from "@/components/Header/Menu/MenuTwo"
 
 export default function ServiceStyleOne() {
     return (
         <>
             <div className="overflow-x-hidden">
                 <header id="header">
-                    <TopNavOne />
-                    <MenuOne />
+                <TopNavTwo />
+                <MenuTwo />
                 </header>
                 <main className="content">
                     <BreadcrumbItem link="Our Services" img="/images/banner/about1.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />

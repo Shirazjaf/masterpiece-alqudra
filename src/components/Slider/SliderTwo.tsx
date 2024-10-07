@@ -17,8 +17,7 @@ const SliderTwo = () => {
                   protection systems
                 </div>
                 <div className="body2 text-white mt-4 animate__animated animate__fadeInLeft animate__delay-0-8s">
-                  Get personalized financial advice to help reach your financial
-                  goals.
+                Receive customized fire safety solutions to protect what matters most.
                 </div>
               </div>
               <div className="button-block animate__animated animate__fadeInLeft animate__delay-0-8s">
@@ -28,8 +27,8 @@ const SliderTwo = () => {
                   placeholder="Email"
                 />
                 <a
-                  className="button-main inline-flex hover:bg-blue bg-black text-white text-button px-7 py-3 rounded-full items-center gap-2"
-                  href="contact-two.html">
+                  className="button-main inline-flex hover:bg-[#C4030A] bg-black text-white text-button px-7 py-3 rounded-full items-center gap-2"
+                  href="#">
                   <Icon.ArrowRight className="text-white" />
                   <span>Get started</span>
                 </a>
