@@ -169,58 +169,7 @@ const MenuTwo = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!">
                     <span className="body2 font-semibold">Home </span>
-                    <Icon.CaretRight className="text-base" />
                   </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 1 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link className="sub-nav-link text-base" href="/">
-                        Payment Solution
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2 active">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/homepages/home2">
-                        Financial Planning
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/homepages/home3">
-                        Online Banking
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/homepages/home4">
-                        Personal Finance
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/homepages/home5">
-                        Cryptocurrency Financial
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/homepages/home6">
-                        Blockchain
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer about ${
@@ -231,28 +180,7 @@ const MenuTwo = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!">
                     <span className="body2 font-semibold">About </span>
-                    <Icon.CaretRight className="text-base" />
                   </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 2 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/about/about-one">
-                        About Style 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/about/about-two">
-                        About Style 2
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer services ${
@@ -263,172 +191,13 @@ const MenuTwo = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!">
                     <span className="body2 font-semibold">Services </span>
-                    <Icon.CaretRight className="text-base" />
+                    
                   </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 3 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/service/service-one">
-                        Service Style 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/service/service-two">
-                        Service Style 2
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/service/service-detail">
-                        Services Detail
-                      </Link>
-                    </li>
-                  </ul>
+                  
                 </li>
-                <li
-                  className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ${
-                    openSubNavMobile === 4 ? "active" : ""
-                  }`}
-                  onClick={() => handleOpenSubNavMobile(4)}>
-                  <a
-                    className="nav-link-mobile flex items-center justify-between"
-                    href="#!">
-                    <span className="body2 font-semibold">Case Studies </span>
-                    <Icon.CaretRight className="text-base" />
-                  </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 4 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/case-studies/case-studies-one">
-                        Case Studies 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/case-studies/case-studies-two">
-                        Case Studies 2
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/case-studies/detail">
-                        Case Studies Detail
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer pages ${
-                    openSubNavMobile === 5 ? "active" : ""
-                  }`}
-                  onClick={() => handleOpenSubNavMobile(5)}>
-                  <a
-                    className="nav-link-mobile flex items-center justify-between"
-                    href="#!">
-                    <span className="body2 font-semibold">Pages </span>
-                    <Icon.CaretRight className="text-base" />
-                  </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 5 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/pages/faqs">
-                        FAQs
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/pages/pricing">
-                        Pricing
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/pages/partners">
-                        Partners
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer blog ${
-                    openSubNavMobile === 6 ? "active" : ""
-                  }`}
-                  onClick={() => handleOpenSubNavMobile(6)}>
-                  <a
-                    className="nav-link-mobile flex items-center justify-between"
-                    href="#!">
-                    <span className="body2 font-semibold">Blog </span>
-                    <Icon.CaretRight className="text-base" />
-                  </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 6 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/blog/blog-list-one">
-                        Blog List 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/blog/blog-list-two">
-                        Blog List 2
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/blog/blog-grid">
-                        Blog Grid
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/blog/blog-detail-one">
-                        Blog Detail 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/blog/blog-detail-two">
-                        Blog Detail 2
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
+                
+                
+                
                 <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer contact ${
                     openSubNavMobile === 7 ? "active" : ""
@@ -438,28 +207,7 @@ const MenuTwo = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!">
                     <span className="body2 font-semibold">Contact </span>
-                    <Icon.CaretRight className="text-base" />
                   </a>
-                  <ul
-                    className={`sub-nav-mobile ${
-                      openSubNavMobile === 7 ? "open" : ""
-                    }`}>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/contact/contact-one">
-                        Contact Style 1
-                      </Link>
-                    </li>
-                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
-                      {" "}
-                      <Link
-                        className="sub-nav-link text-base"
-                        href="/contact/contact-two">
-                        Contact Style 2
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>
