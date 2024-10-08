@@ -24,7 +24,7 @@ export default function HomeTwo() {
         </header>
         <main className="content">
           <SliderTwo />
-          <PartnerOne classname="bg-[#C4030A]" />
+          {/* <PartnerOne classname="bg-[#C4030A]" /> */}
           <ProjectTwo />
           <ServiceTwo data={serviceData} />
           <TestimonialTwo />

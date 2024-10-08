@@ -66,7 +66,7 @@ const MenuTwo = () => {
               </li>
               <li
                 className={`nav-item h-full flex items-center justify-center ${
-                  pathname.includes("/about/") ? "active" : ""
+                  pathname.includes("#") ? "active" : ""
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"

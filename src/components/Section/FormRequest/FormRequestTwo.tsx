@@ -17,7 +17,7 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
                 <div className="flex max-lg:flex-col lg:items-center justify-between gap-8 h-full">
                     <div className="lg:w-1/2">
                         <div className="heading2 text-white">Let’s build<br />future together</div>
-                        <div className="caption1 text-surface mt-4">Job Searching Just Got Easy. Use Jobtex to run a hiring site and earn<br className="max-sm:hidden" />money in the process!</div>
+                        {/* <div className="caption1 text-surface mt-4">Job Searching Just Got Easy. Use Jobtex to run a hiring site and earns<br className="max-sm:hidden" />money in the process!</div> */}
                     </div>
                     <div className="lg:w-1/2">
                         <form className="form-block rounded-xl bg-white p-7 flex flex-col justify-between gap-5">
