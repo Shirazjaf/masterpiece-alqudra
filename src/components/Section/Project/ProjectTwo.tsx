@@ -78,14 +78,16 @@ const ProjectTwo = () => {
 
                     {slidesData.map((slide, index) => (
                 <SwiperSlide key={index}>
-                    <div className="item">
+                    <div className="item ">
                         <div className="bg-img overflow-hidden">
                             <Image width={5000} height={5000} className="w-full h-full" src={slide.imgSrc} alt="" />
                         </div>
-                        <Link className="text" href={slide.link}>
+                        <div className="bg-blue">
+                        <Link className="text bg-[#1D2027] bg-opacity-80 w-[100%]" href={slide.link}>
                             <div className="heading5 text-white">{slide.title}</div>
                             <div className="body3 text-white mt-1">{slide.description}</div>
                         </Link>
+                        </div>
                         <Link className="arrow w-[52px] h-[52px] flex items-center justify-center bg-white rounded-full hover:text-white" href={slide.link}>
                             <Icon.ArrowRight className="text-3xl" />
                         </Link>
