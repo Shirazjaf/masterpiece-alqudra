@@ -1,72 +1,71 @@
 [
-    {
-        "icon": "icon-coin-chair",
-        "category": "payment solution",
-        "title": "Cryptocurrency Trading",
-        "desc": "Experience the excitement and potential of the cryptocurrency market with our expert trading services.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
-    },
-    {
-        "icon": "icon-hand-tick",
-        "category": "payment solution",
-        "title": "Portfolio Management",
-        "desc": "We analyze market trends, manage risks, and optimize your portfolio to maximize returns and achieve your financial goals.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goalss."
-    },
-    {
-        "icon": "icon-hand-house",
-        "category": "payment solution",
-        "title": "Investment Advice",
-        "desc": "Our team of experienced advisors will guide you in making informed investment, whether you're a beginner trader.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goalss."
-    },
-    {
-        "icon": "icon-gear-warning",
-        "category": "payment solution",
-        "title": "Risk Management",
-        "desc": "We employ industry-leading tools and techniques to protect your investments and minimize potential losses.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goalsd."
-    },
-    {
-        "icon": "icon-text-search",
-        "category": "payment solution",
-        "title": "Research and Analysis",
-        "desc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions.",
-        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
-    },
-    {
-        "icon": "icon-education",
-        "category": "payment solution",
-        "title": "Education and Resources",
-        "desc": "Expand your knowledge and skills in cryptocurrency trading through our educational resources.",
-        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
-    },
-    {
-        "icon": "icon-coin-hand",
-        "category": "financial planning",
-        "title": "Fire Safety Solutions",
-        "desc": "Experience the excitement and potential of the cryptocurrency market with our expert trading services.",
-        "shortDesc": "Supply and installation of comprehensive fire alarm and fire fighting systems, along with professional service and maintenance for fire extinguishers."
-    },
-    {
-        "icon": "icon-coin-pig",
-        "category": "financial planning",
-        "title": "Infrastructure and Pipeline Works",
-        "desc": "We analyze market trends, manage risks, and optimize your portfolio to maximize returns and achieve your financial goals.",
-        "shortDesc": "Supply and installation of HDPE pipeline works and high-pressure PVC pipes, ensuring reliable plumbing solutions."
-    },
-    {
-        "icon": "icon-coin-virus",
-        "category": "financial planning",
-        "title": "Safety Equipment and Accessories",
-        "desc": "Our team of experienced advisors will guide you in making informed investment, whether you're a beginner trader.",
-        "shortDesc": "Provision of spill pallets, garbage drums, hand trolleys, and personal protective equipment (PPE) for enhanced safety on the job."
-    },
-    {
-        "icon": "icon-hand-protect",
-        "category": "financial planning",
-        "title": "Mechanical Tools and Valves",
-        "desc": "We employ industry-leading tools and techniques to protect your investments and minimize potential losses.",
-        "shortDesc": "Supply of high-quality mechanical valves and a range of mechanical power tools for construction and maintenance projects."
-    }
+  {
+    "icon": "icon-coin-chair",
+    "category": "payment solution",
+    "title": "Installation of Fire Fighting Systems",
+    "desc": "Professional installation of fire hose reels, dry/wet risers, hydrant systems, sprinkler protection systems, and more, adhering to international and local standards.",
+    "shortDesc": "Get personalized financial advice to help reach your financial goals."
+  },
+  {
+    "icon": "icon-hand-tick",
+    "category": "payment solution",
+    "title": "Installation of Fire Alarm Systems",
+    "desc": "Expertise in addressable and conventional fire alarm systems, including detection systems for fire suppression, meeting all quality and regulatory requirements.",
+    "shortDesc": "Get personalized financial advice to help reach your financial goalss."
+  },
+  {
+    "icon": "icon-hand-house",
+    "category": "payment solution",
+    "title": "Installation of LP Gas Systems",
+    "desc": "Installation of LP gas piping for domestic use and commercial kitchens, ensuring safety and compliance with standards.",
+    "shortDesc": "Get personalized financial advice to help reach your financial goalss."
+  },
+  {
+    "icon": "icon-gear-warning",
+    "category": "payment solution",
+    "title": "Maintenance of Fire Extinguishers",
+    "desc": "Comprehensive servicing, refilling, and revalidation of fire extinguishers, with in-house facilities for certification as per local authority requirements.",
+    "shortDesc": "Get personalized financial advice to help reach your financial goalsd."
+  },
+  {
+    "icon": "icon-text-search",
+    "category": "payment solution",
+    "title": "Maintenance of Fire Alarm, Fire Fighting, and LP Gas Systems",
+    "desc": "Complete maintenance and civil defense certification renewal for commercial, industrial, and factory buildings in line with approving authorities.",
+    "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+  },
+  {
+    "icon": "icon-education",
+    "category": "payment solution",
+    "title": "Supply and Installation of Fire-Rated Steel and Wooden Doors",
+    "desc": "High-quality fire-rated doors supplied and installed to enhance safety and compliance."
+  },
+  {
+    "icon": "icon-coin-hand",
+    "category": "financial planning",
+    "title": "Supply and Installation of HDPE Pipeline Works",
+    "desc": "Reliable HDPE pipeline installation services tailored for diverse applications.",
+    "shortDesc": "Supply and installation of comprehensive fire alarm and fire fighting systems, along with professional service and maintenance for fire extinguishers."
+  },
+  {
+    "icon": "icon-coin-pig",
+    "category": "financial planning",
+    "title": "Infrastructure and Pipeline Works",
+    "desc": "We analyze market trends, manage risks, and optimize your portfolio to maximize returns and achieve your financial goals.",
+    "shortDesc": "Supply and installation of HDPE pipeline works and high-pressure PVC pipes, ensuring reliable plumbing solutions."
+  },
+  {
+    "icon": "icon-coin-virus",
+    "category": "financial planning",
+    "title": "Safety Equipment and Accessories",
+    "desc": "Our team of experienced advisors will guide you in making informed investment, whether you're a beginner trader.",
+    "shortDesc": "Provision of spill pallets, garbage drums, hand trolleys, and personal protective equipment (PPE) for enhanced safety on the job."
+  },
+  {
+    "icon": "icon-hand-protect",
+    "category": "financial planning",
+    "title": "Mechanical Tools and Valves",
+    "desc": "We employ industry-leading tools and techniques to protect your investments and minimize potential losses.",
+    "shortDesc": "Supply of high-quality mechanical valves and a range of mechanical power tools for construction and maintenance projects."
+  }
 ]
