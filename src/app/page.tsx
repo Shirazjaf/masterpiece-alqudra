@@ -1,20 +1,27 @@
 import MenuTwo from "@/components/Header/Menu/MenuTwo";
 import TopNavTwo from "@/components/Header/TopNav/TopNavTwo";
-import AboutTwo from "@/components/Section/About/AboutTwo";
-import CounterTwo from "@/components/Section/Counter/CounterTwo";
 import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import ProjectTwo from "@/components/Section/Project/ProjectTwo";
 import SliderTwo from "@/components/Slider/SliderTwo";
 import serviceData from "@/data/service.json";
 import ServiceTwo from "@/components/Section/Service/ServiceTwo";
-import TestimonialTwo from "@/components/Section/Testimonial/TestimonialTwo";
-import blogData from "@/data/blog.json";
-import BlogOne from "@/components/Section/Blog/BlogOne";
-import CtaOne from "@/components/Section/CTA/CtaOne";
 import Footer from "@/components/Footer/Footer";
-import FormRequestTwo from "@/components/Section/FormRequest/FormRequestTwo";
+import PaymentGatewayOneFirst from "@/components/Section/PaymentGateway/PaymentGatewayOneFirst";
+import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 export default function HomeTwo() {
+  const expertiseList = [
+    "A professionally trained engineering wing for all kinds of solutions in project execution.",
+    "Specialist in installation of all types of fire detection system & fire protection system.",
+    "Skilled & trained professional team for executing projects.",
+    "Providing technical guidance by technical engineers trained from product manufacturer.",
+    "Undertake maintenance of firefighting & fire alarm system, providing civil defense certification.",
+    "Carry out design, installation, testing, commissioning.",
+    "Obtaining final approval from local authority (CDAA).",
+    "Specialized in LP Gas installation for residential/commercial projects.",
+    "Creation of savings and investment plan.",
+    "Management and calculation of monthly expenses.",
+  ];
   return (
     <>
       <div className="overflow-x-hidden">
@@ -24,16 +31,28 @@ export default function HomeTwo() {
         </header>
         <main className="content">
           <SliderTwo />
-          {/* <PartnerOne classname="bg-[#C4030A]" /> */}
+          <PartnerOne classname="bg-white" />
           <ProjectTwo />
           <ServiceTwo data={serviceData} />
-          <TestimonialTwo />
-          <FormRequestTwo
-            classname="style-two"
-            bgImg="/images/banner/form-benefit-two.png"
-          />
+          <PaymentGatewayOneFirst/>
+
+          <div className="mt-10 flex items-center p-4 lg:p-0">
+          <div className="desc lg:pl-10 lg:pr-3">
+      <div className="heading3">OUR FIELD OF EXPERTISE</div>
+
+      <div className="list-feature gap-y-3 flex flex-col mt-6">
+        {expertiseList.map((item, index) => (
+          <div key={index} className="item flex items-start gap-3">
+            <Icon.CheckCircle weight="fill" className="text-xl text-blue" />
+            <div className="text-button">{item}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+                </div>
+          
           <div className="pb-[100px]"></div>
-          <CtaOne />
+          
         </main>
         <footer id="footer">
           <Footer />

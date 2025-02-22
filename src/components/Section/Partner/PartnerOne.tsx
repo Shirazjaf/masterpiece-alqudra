@@ -47,7 +47,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner1.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -58,7 +58,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner2.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -69,7 +69,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner3.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -80,7 +80,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner4.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -91,7 +91,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner5.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -102,7 +102,51 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/banner6.png'}
+                                        width={300}
+                                        height={300}
+                                        alt='1'
+                                        className='h-full w-auto duration-500 relative object-cover'
+                                    />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="brand-item relative flex items-center justify-center h-[34px]">
+                                    <Image
+                                        src={'/images/partner/banner7.png'}
+                                        width={300}
+                                        height={300}
+                                        alt='1'
+                                        className='h-full w-auto duration-500 relative object-cover'
+                                    />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="brand-item relative flex items-center justify-center h-[34px]">
+                                    <Image
+                                        src={'/images/partner/banner8.png'}
+                                        width={300}
+                                        height={300}
+                                        alt='1'
+                                        className='h-full w-auto duration-500 relative object-cover'
+                                    />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="brand-item relative flex items-center justify-center h-[34px]">
+                                    <Image
+                                        src={'/images/partner/banner9.png'}
+                                        width={300}
+                                        height={300}
+                                        alt='1'
+                                        className='h-full w-auto duration-500 relative object-cover'
+                                    />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="brand-item relative flex items-center justify-center h-[34px]">
+                                    <Image
+                                        src={'/images/partner/banner10.png'}
                                         width={300}
                                         height={300}
                                         alt='1'

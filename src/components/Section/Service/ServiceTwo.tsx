@@ -9,7 +9,7 @@ interface Props {
 const ServiceTwo: React.FC<Props> = ({ data }) => {
     return (
         <>
-            <section className="service-block lg:mt-[100px] sm:mt-16 mt-10">
+            <section  className="service-block lg:mt-[100px] sm:mt-16 mt-10">
                 <div className="container xl:flex items-center justify-center">
                     <div className="xl:w-1/3 w-full flex flex-col gap-4 flex-shrink-0">
                         <div className="text-sub-heading2 text-[#C4030A]">Services</div>
