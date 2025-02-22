@@ -73,7 +73,6 @@ const MenuTwo = () => {
                   href="#">
                   <span>About</span>
                 </Link>
-                
               </li>
               <li
                 className={`nav-item h-full flex items-center justify-center ${
@@ -81,38 +80,30 @@ const MenuTwo = () => {
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="#">
+                  href="service">
                   <span>Services</span>
-                  
                 </Link>
-                
               </li>
               <li
                 className={`nav-item h-full flex items-center justify-center ${
-                  pathname.includes("/service") ? "active" : ""
+                  pathname.includes("/products") ? "active" : ""
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="#">
+                  href="products">
                   <span>Products</span>
-                  
                 </Link>
-                
               </li>
-              
-             
-              
+
               <li
                 className={`nav-item h-full flex items-center justify-center ${
                   pathname.includes("/contact/") ? "active" : ""
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="#">
+                  href="contact">
                   <span>Contact</span>
-                  
                 </Link>
-                
               </li>
             </ul>
           </div>
@@ -191,13 +182,9 @@ const MenuTwo = () => {
                     className="nav-link-mobile flex items-center justify-between"
                     href="#!">
                     <span className="body2 font-semibold">Services </span>
-                    
                   </a>
-                  
                 </li>
-                
-                
-                
+
                 <li
                   className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer contact ${
                     openSubNavMobile === 7 ? "active" : ""
