@@ -11,7 +11,7 @@ const PaymentGatewayOneFirst = () => {
     const isInView = useInView(ref, { once: true });
 
     return (
-        <section className="payment-gateway-one style-first lg:mt-[100px] sm:mt-16 mt-10 bg-surface relative">
+        <section id="about" className="payment-gateway-one style-first lg:mt-[100px] sm:mt-16 mt-10 bg-surface relative">
             <div className="bg-img lg:absolute top-0 left-0 lg:w-1/2 w-full h-full flex-shrink-0">
                 <Image className="w-full h-full rounded-md object-cover" width={5000} height={5000} src="/images/component/img1.avif" alt="" />
             </div>

@@ -28,7 +28,7 @@ export default function ContactStyleOne() {
         <main className="content">
           <BreadcrumbItem
             link="Contact us"
-            img="/images/banner/about1.png"
+            img="/images/banner/1920x400.png"
             title="Contact us"
             desc="Explore our Contact Us page for prompt assistance from our dedicated team."
           />
@@ -46,31 +46,36 @@ export default function ContactStyleOne() {
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.facebook.com/"
-                        target="_blank">
+                        target="_blank"
+                      >
                         <i className="icon-facebook text-black"></i>
                       </a>
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.linkedin.com/"
-                        target="_blank">
+                        target="_blank"
+                      >
                         <i className="icon-in text-black"></i>
                       </a>
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.twitter.com/"
-                        target="_blank">
+                        target="_blank"
+                      >
                         <i className="icon-twitter text-sm text-black ml-1"></i>
                       </a>
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.instagram.com/"
-                        target="_blank">
+                        target="_blank"
+                      >
                         <i className="icon-insta text-sm text-black"></i>
                       </a>
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.youtube.com/"
-                        target="_blank">
+                        target="_blank"
+                      >
                         <i className="icon-youtube text-xs text-black"></i>
                       </a>
                     </div>
@@ -121,7 +126,8 @@ export default function ContactStyleOne() {
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
                           <Link
-                            href={"https://maps.app.goo.gl/x8DcLDRn3wowyQrN7"}>
+                            href={"https://maps.app.goo.gl/x8DcLDRn3wowyQrN7"}
+                          >
                             311, Suhar, Falaj Al Qabail, Sultanate Of Oman
                           </Link>
                         </div>
@@ -166,7 +172,8 @@ export default function ContactStyleOne() {
                       <div className="col-span-2">
                         <select
                           className="w-full bg-surface text-secondary caption1 pl-3 py-3 rounded-lg"
-                          name="service">
+                          name="service"
+                        >
                           {services.map((service, index) => (
                             <option key={index} value={service}>
                               {service}
@@ -181,7 +188,8 @@ export default function ContactStyleOne() {
                           name="message"
                           rows={4}
                           placeholder="Your Message"
-                          required></textarea>
+                          required
+                        ></textarea>
                       </div>
                     </div>
                     <div className="button-block">
@@ -194,7 +202,6 @@ export default function ContactStyleOne() {
               </div>
             </div>
           </div>
-          <CtaOne />
         </main>
         <footer id="footer">
           <Footer />

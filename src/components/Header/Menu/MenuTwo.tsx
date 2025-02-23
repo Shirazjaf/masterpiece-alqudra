@@ -70,7 +70,7 @@ const MenuTwo = () => {
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="#">
+                  href="#about">
                   <span>About</span>
                 </Link>
               </li>
@@ -80,7 +80,7 @@ const MenuTwo = () => {
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="service">
+                  href="#service">
                   <span>Services</span>
                 </Link>
               </li>
@@ -90,7 +90,7 @@ const MenuTwo = () => {
                 }`}>
                 <Link
                   className="nav-link text-title flex items-center gap-1"
-                  href="products">
+                  href="#products">
                   <span>Products</span>
                 </Link>
               </li>

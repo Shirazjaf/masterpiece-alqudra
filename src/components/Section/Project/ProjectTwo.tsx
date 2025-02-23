@@ -42,7 +42,7 @@ const slidesData = [
 
 const ProjectTwo = () => {
     return (
-        <div className="our-project-block lg:mt-[100px] sm:mt-16 mt-10">
+        <div id="products" className="our-project-block lg:mt-[100px] sm:mt-16 mt-10">
             <div className="container">
                 <div className="heading3 text-[#C4030A] text-center">Our Products</div>
                 <div className="body2 text-secondary mt-3 text-center">Defend Against Flames with Confidence.</div>
