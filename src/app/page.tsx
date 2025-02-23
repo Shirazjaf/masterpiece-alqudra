@@ -5,9 +5,10 @@ import ProjectTwo from "@/components/Section/Project/ProjectTwo";
 import SliderTwo from "@/components/Slider/SliderTwo";
 import serviceData from "@/data/service.json";
 import ServiceTwo from "@/components/Section/Service/ServiceTwo";
-import Footer from "@/components/Footer/Footer";
+// import Footer from "@/components/Footer/Footer";
 import PaymentGatewayOneFirst from "@/components/Section/PaymentGateway/PaymentGatewayOneFirst";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import Footer from "@/components/Footer/Footer";
 
 export default function HomeTwo() {
   const expertiseList = [
@@ -31,18 +32,18 @@ export default function HomeTwo() {
         </header>
         <main className="content">
           <SliderTwo />
-          <PartnerOne classname="bg-white" />
+          <PartnerOne classname="bg-white mt-10" />
           <ProjectTwo />
           <ServiceTwo data={serviceData} />
           <PaymentGatewayOneFirst/>
 
-          <div className="mt-10 flex items-center p-4 lg:p-0">
-          <div className="desc lg:pl-10 lg:pr-3">
-      <div className="heading3">OUR FIELD OF EXPERTISE</div>
+          <div className="mt-10 flex items-center justify-center p-4 lg:p-0 bg-surface ">
+          <div className="desc lg:pl-10 lg:pr-3 my-8">
+      <div className="heading3 text-center">OUR FIELD OF EXPERTISE</div>
 
       <div className="list-feature gap-y-3 flex flex-col mt-6">
         {expertiseList.map((item, index) => (
-          <div key={index} className="item flex items-start gap-3">
+          <div key={index} className="item  flex items-center gap-3">
             <Icon.CheckCircle weight="fill" className="text-xl text-blue" />
             <div className="text-button">{item}</div>
           </div>

@@ -13,7 +13,7 @@ const PaymentGatewayOneFirst = () => {
     return (
         <section className="payment-gateway-one style-first lg:mt-[100px] sm:mt-16 mt-10 bg-surface relative">
             <div className="bg-img lg:absolute top-0 left-0 lg:w-1/2 w-full h-full flex-shrink-0">
-                <Image className="w-full h-full object-cover" width={5000} height={5000} src="/images/component/img1.avif" alt="" />
+                <Image className="w-full h-full rounded-md object-cover" width={5000} height={5000} src="/images/component/img1.avif" alt="" />
             </div>
             <div className="container w-full lg:py-[150px] pt-14 py-16">
                 <div className="w-full flex items-center lg:justify-end" ref={ref}>
